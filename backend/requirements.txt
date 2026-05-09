@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+aiohttp
+openai>=1.0.0
+torch
+pyyaml
+tqdm
+faiss-cpu
+sentence-transformers
+numpy
+pymysql
+sqlalchemy
+aiomysql
+python-dotenv
+requests

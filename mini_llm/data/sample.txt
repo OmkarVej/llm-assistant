@@ -1,0 +1,3 @@
+This is a small sample dataset for the mini-llm project.
+It demonstrates how the toy GPT-style model can learn basic byte-level patterns.
+Add your own .txt files into the data/ directory to train on domain documents.

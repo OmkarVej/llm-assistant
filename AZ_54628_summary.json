@@ -1,0 +1,167 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "80764",
+  "self": "https://a2zsync.atlassian.net/rest/api/3/issue/80764",
+  "key": "AZ-54628",
+  "fields": {
+    "summary": "Create Customer Loan Details Dealership Variable ",
+    "issuetype": {
+      "self": "https://a2zsync.atlassian.net/rest/api/3/issuetype/10001",
+      "id": "10001",
+      "description": "Stories track functionality or features expressed as user goals.",
+      "iconUrl": "https://a2zsync.atlassian.net/images/icons/issuetypes/story.svg",
+      "name": "Story",
+      "subtask": false,
+      "hierarchyLevel": 0
+    },
+    "components": [],
+    "created": "2025-11-12T13:16:48.737-0700",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Using a seeder, create a new dealership variable and available variable for toggling the Customer Loan Details through Lending Platform functionality."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Dealership Variable: "
+            },
+            {
+              "type": "text",
+              "text": "a2z_lending_platform_cld",
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Description: "
+            },
+            {
+              "type": "text",
+              "text": "Enables the Customer Loan Details (merged LLL/LLF) through Lending Platform feature",
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Default: "
+            },
+            {
+              "type": "text",
+              "text": "false",
+              "marks": [
+                {
+                  "type": "code"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Client Editable = NO"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "type = boolean"
+            }
+          ]
+        }
+      ]
+    },
+    "reporter": {
+      "self": "https://a2zsync.atlassian.net/rest/api/3/user?accountId=712020%3A383768ec-2117-47bf-8410-6daab44a7445",
+      "accountId": "712020:383768ec-2117-47bf-8410-6daab44a7445",
+      "emailAddress": "chris.graham@a2zsync.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/edef9106dfba25690f98c942299761d7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCG-3.png",
+        "24x24": "https://secure.gravatar.com/avatar/edef9106dfba25690f98c942299761d7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCG-3.png",
+        "16x16": "https://secure.gravatar.com/avatar/edef9106dfba25690f98c942299761d7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCG-3.png",
+        "32x32": "https://secure.gravatar.com/avatar/edef9106dfba25690f98c942299761d7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCG-3.png"
+      },
+      "displayName": "Chris Graham",
+      "active": true,
+      "timeZone": "America/Denver",
+      "accountType": "atlassian"
+    },
+    "priority": {
+      "self": "https://a2zsync.atlassian.net/rest/api/3/priority/3",
+      "iconUrl": "https://a2zsync.atlassian.net/images/icons/priorities/medium_new.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "resolution": null,
+    "labels": [],
+    "comment": {
+      "comments": [],
+      "self": "https://a2zsync.atlassian.net/rest/api/3/issue/80764/comment",
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "assignee": {
+      "self": "https://a2zsync.atlassian.net/rest/api/3/user?accountId=712020%3A29a0f155-664f-407e-9b24-aebb6cd9da8b",
+      "accountId": "712020:29a0f155-664f-407e-9b24-aebb6cd9da8b",
+      "emailAddress": "ashutosh.azad@a2zsync.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/55bac1d93cbc16d62b4b93b87b46ee23?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/55bac1d93cbc16d62b4b93b87b46ee23?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/55bac1d93cbc16d62b4b93b87b46ee23?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/55bac1d93cbc16d62b4b93b87b46ee23?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAA-6.png"
+      },
+      "displayName": "Ashutosh Azad",
+      "active": true,
+      "timeZone": "Asia/Calcutta",
+      "accountType": "atlassian"
+    },
+    "updated": "2025-11-14T13:44:03.955-0700",
+    "status": {
+      "self": "https://a2zsync.atlassian.net/rest/api/3/status/10018",
+      "description": "",
+      "iconUrl": "https://a2zsync.atlassian.net/images/icons/statuses/generic.png",
+      "name": "In Pull Request",
+      "id": "10018",
+      "statusCategory": {
+        "self": "https://a2zsync.atlassian.net/rest/api/3/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "In Progress"
+      }
+    }
+  }
+}

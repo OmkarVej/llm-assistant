@@ -1,0 +1,20 @@
+model:
+  vocab_size: 256
+  block_size: 128
+  n_layer: 2
+  n_head: 4
+  n_embd: 128
+  dropout: 0.1
+
+train:
+  batch_size: 4
+  epochs: 1
+  lr: 3e-4
+  log_interval: 10
+  device: "cpu"
+  ckpt_path: "checkpoints/model.pt"
+  data_dir: "data"
+
+# OpenAI API Configuration (optional - can also use OPENAI_API_KEY environment variable)
+openai_api_key: "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"
+OPENAI_MODEL: "gpt-4o-mini"  # Optional: specify model (default: gpt-4o-mini)

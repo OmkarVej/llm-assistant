@@ -1,0 +1,19 @@
+{
+  "name": "mini-llm-frontend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "backend": "cd ../backend && python3 -m uvicorn app:app --reload --port 8000",
+    "start:all": "concurrently \"npm run backend\" \"npm run dev\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "concurrently": "^9.2.1",
+    "vite": "^7.2.2"
+  }
+}
